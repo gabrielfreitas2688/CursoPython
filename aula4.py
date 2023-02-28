@@ -1,0 +1,1 @@
+print("Luan é gay")
