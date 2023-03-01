@@ -1,6 +1,6 @@
 nome = "Crow"
 sobrenome = "Cavalheiro de Freitas"
-idade = 10
+idade = 24
 ano_nascimento = 2023 - idade
 maior_de_idade = idade >= 18
 altura = 1.77
