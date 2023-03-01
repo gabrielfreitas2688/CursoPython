@@ -2,6 +2,7 @@ entrada = input("Você deseja anetrar no sistema? S/N ")
 
 if entrada == "N" or entrada == "n":
   input("Você deslogou!")
+ 
 
 senha = int(input("Digite a senha: "))
 senha_correta = 12345
