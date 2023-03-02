@@ -2,7 +2,7 @@
 #Exercício 1 
 ########################################################################
 
-"""numero = input("Digite um número: ")
+numero = input("Digite um número: ")
 numero_float = float(numero)
 
 if (numero_float % 2) > 0:
@@ -10,10 +10,10 @@ if (numero_float % 2) > 0:
 else:
     print("O número é par!")
 
-if numero_float.__format__ != int:
-    print("O número não é inteiro!")
+if numero.isdigit():
+    print("O número é inteiro!")
 else: 
-    print("O número é inteiro") """
+    print("O número não é inteiro") 
 
 ########################################################################
 #Exercício 2
@@ -36,6 +36,7 @@ else:
 ########################################################################
 #Exercício 3
 ########################################################################
+"""
 nome = input("Digite seu nome: ")
 
 if len(nome) <=4:
@@ -48,3 +49,5 @@ elif len(nome) >6:
     print("Seu nome é grande!")
 else:
     print("Algo deu errado!")
+
+"""
