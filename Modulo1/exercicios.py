@@ -2,7 +2,7 @@
 #Exercício 1 
 ########################################################################
 
-numero = input("Digite um número: ")
+"""numero = input("Digite um número: ")
 numero_float = float(numero)
 
 if (numero_float % 2) > 0:
@@ -13,26 +13,33 @@ else:
 if numero.isdigit():
     print("O número é inteiro!")
 else: 
-    print("O número não é inteiro") 
+    print("O número não é inteiro") """
 
 ########################################################################
 #Exercício 2
 ########################################################################
-"""hora = input("Digite seu horário: ")
-hora_int = int(hora)
+hora = input("Digite seu horário: ")
 
-if hora_int >= 0 and hora_int <= 11:
-    print("Bom dia!")
+try:
 
-elif hora_int >= 12 and hora_int <= 17:
-    print("Boa tarde!")
+    hora_int = int(hora)
 
-elif hora_int >= 18 and hora_int <= 23:
-    print("Boa noite!")
+    if hora_int >= 0 and hora_int <= 11:
+        print("Bom dia!")
 
-else:
-    print("Você digitou um horário incorreto!")"""
+    elif hora_int >= 12 and hora_int <= 17:
+        print("Boa tarde!")
 
+    elif hora_int >= 18 and hora_int <= 23:
+        print("Boa noite!")
+
+    else:
+        print("Você digitou um horário incorreto!")
+
+except:
+    print("Você não digitou um número!")
+
+""""""
 ########################################################################
 #Exercício 3
 ########################################################################
